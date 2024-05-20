@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 215, 96);
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.462); 
+}
+
+.navbar a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 10%;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #95acff;
+}
+
+.info {
+    font-family: 'Poppins';
+    margin-top: 160px;
+    text-align: left;
+    justify-content: left;
+   margin-left: 120px;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.info h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #0f40f1;
+    padding-bottom: 10px;
+    line-height: 1.2;
+}
+
+.info p{
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}

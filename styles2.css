@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: aliceblue;
+    background-size: 100%;
+    font-family: 'Poppins';
+}
+
+p {
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.page
+ {
+   align-items:  center;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 38%;
+    box-sizing: border-box;
+    width: 420px;
+    height:320px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-top: 90px;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.462);
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.edit-form input[type="email"],
+.edit-form input[type="text"],
+.edit-form button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 9px;
+}
+
+.edit-form button {
+    margin-top: 20px;
+    background-color: #489efb;
+    color: white;
+    cursor: pointer;
+    margin-left: 18px;
+}
+
+.edit-form button:hover {
+    background-color: #ffb133;
+}
+
+.log {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffb133;
+    border-radius: 3px;
+    text-align: center; 
+    font-weight: bold;  
+    margin-top: 30px;   
+    margin-left: 85%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.462); 
+}
+.log a {
+    color: white;       
+    text-decoration: none; 
+}
+.log a:hover {
+    text-decoration: underline; 
+}
